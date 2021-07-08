@@ -20,6 +20,7 @@ Defines several endpoints:
 
 1. Rename `.env.exemple` to `.env`
 2. Set the value of `MONGO_CONNECTION` in `.env`. You can use [Atlas](https://www.mongodb.com/cloud/atlas) to quickly create a free sandbox and get a connexion string.
+3. (optionaly) set the value of `SECRET`
 
 ### Run the app
 
