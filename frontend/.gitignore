@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,react
 
 ### macOS ###
 # General
@@ -31,6 +31,22 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -47,7 +63,7 @@ Temporary Items
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,react
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 

@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+button,
+input {
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+}
+
+button {
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Button--login {
+  background-color: palevioletred;
+  border: palevioletred solid 2px;
+}
+
+.Button--login:hover {
+  background-color: white;
+  color: palevioletred;
+}
+
+.Button--register {
+  background-color: goldenrod;
+  border: goldenrod solid 2px;
+}
+
+.Button--register:hover {
+  background-color: white;
+  color: goldenrod;
+}
+
+.Button--user {
+  background-color: mediumseagreen;
+  border: mediumseagreen solid 2px;
+}
+
+.Button--user:hover {
+  background-color: white;
+  color: mediumseagreen;
+}
+
+.Welcome {
+  color: CadetBlue;
+}
