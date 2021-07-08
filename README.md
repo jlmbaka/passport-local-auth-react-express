@@ -1,35 +1,22 @@
-# AUTHENTICATION USING PASSPORT & REACT
+# Passport Local Authentication with React, ExpressJS and Mongoose
 
-## Table of Contents
+## Description
 
--   [About](#about)
--   [Getting Started](#getting_started)
--   [Usage](#usage)
--   [Contributing](../CONTRIBUTING.md)
+Simple app to show how to securely configure local authentification strategy with [Passport](http://www.passportjs.org/packages/passport-local/ for an ExpresJS app with a React frontend. User data are stored in Mongo DB through Mongoose.
 
-## About <a name = "about"></a>
+## Usage
 
-Simple project that implements authentification with Passport JS for a React Application.
+Be sure to have a MongoDB running, either remotely (e.g. MongoAltas Sandbox) or locally.
 
-It's made up of two app:
-- Client
-- Backend
+Launch the backend:
 
-## Getting Started <a name = "getting_started"></a>
-
-### Prerequisites
-
-NodeJS
-
-## Usage <a name = "usage"></a>
-
-Open a terminal, and launch the backend:
 ```
 cd backend
 npm run start
 ```
 
-Open a terminal, and launch the frontend:
+Launch the frontend:
+
 ```
 cd frontend
 npm run start

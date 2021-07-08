@@ -1,27 +1,27 @@
 {
-  "name": "auth-passport-prisma",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Jean-Louis",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.7",
-    "prisma": "^2.25.0"
-  },
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "cookie-parser": "^1.4.5",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "mongoose": "^5.12.14",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0"
-  }
+    "name": "auth-passport-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Jean-Louis",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "mongoose": "^5.12.14",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0"
+    }
 }
