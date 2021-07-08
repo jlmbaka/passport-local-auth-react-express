@@ -2,7 +2,7 @@
 
 ## Description
 
-Simple app to show how to securely configure local authentification strategy with [Passport](http://www.passportjs.org/packages/passport-local/ for an ExpresJS app with a React frontend. User data are stored in Mongo DB through Mongoose.
+Simple app to show how to securely configure local authentification strategy with [Passport](http://www.passportjs.org/packages/passport-local/) for an ExpresJS app with a React frontend. User data are stored in Mongo DB through Mongoose.
 
 ## Usage
 
